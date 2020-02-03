@@ -1,0 +1,58 @@
+.jumbotron {
+  background-color: white;
+  text-align: center;
+  font-size: 10vw;
+  font-family: "Permanent Marker", cursive;
+  padding: 0.4vw 0.5vw;
+  margin-bottom: 0vw;
+  height: 0.9em;
+}
+#tit {
+  text-align: center;
+  font-size: 10vw;
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode",
+    "Lucida Sans", sans-serif;
+}
+.carousel {
+  height: 60vw;
+  width: 100%;
+}
+.rounded-circle {
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  height: auto;
+  width: 100%;
+}
+/*#r1{
+  height: 30%;
+}*/
+h2 {
+  font-family: "Permanent Marker", cursive;
+}
+#name {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+#but {
+  margin-bottom: 2vw;
+}
+.btn#recipeButton {
+  background-color: #f06075;
+  border-color: #f06075;
+  font-family: "Permanent Marker", cursive;
+}
+.btn:hover {
+  background-color: #cf5567;
+  border-color: #cf5567;
+}
+h4 {
+  text-align: justify;
+}
+.carousel-caption {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: rgba(201, 201, 201, .8);
+}
