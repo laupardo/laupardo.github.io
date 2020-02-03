@@ -3,7 +3,7 @@
 https://laupardo.github.io/index.html
 ![screen shot of my webpage](https://github.com/laupardo/laupardo.github.io/blob/master/images/screenShot.jpg)
 # Objective 
-This project aims to develop my personal web page under some guidelines of which technologies to use. These technologies were new to me and this is a way to practice and showcase what I've learned. I decided to focus mainly on what I'm currently most passionate about and showcase it. 
+This project aims to showcase and practice what I've learned in my web development class by the developing my own personal web page.I decided to focus mainly on what I'm currently most passionate about and showcase it. 
 
 # Tecnologies
 HTML5<br>
