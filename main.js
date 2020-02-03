@@ -1,4 +1,5 @@
-//lods the recipe on the page
+//loads the recipe on the page
+'use strict';
 window.onload = function() {
   let rec = randRecipe();
   document.getElementById("recTitle").innerHTML=rec.title;
