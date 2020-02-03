@@ -9,7 +9,7 @@
   height: 0.9em;
 }
 .carousel {
-  height: 60vw;
+  height: auto;
   width: 100%;
 }
 .rounded-circle {
