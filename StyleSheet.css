@@ -1,3 +1,4 @@
+ /* Mariana Rodriguez: More comments separating the css by sections could be useful*/
 /* Index style*/
 .jumbotron {
   background-color: white;
@@ -22,8 +23,16 @@
   width: 100%;
 }
 
+.container-fluid {
+   /* Mariana Rodriguez: Some padding would give a better look.*/
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 h2 {
   font-family: "Permanent Marker", cursive;
+  /* Mariana Rodriguez: This could be centered for a better feel*/
+  text-align: center;
 }
 #name {
   text-align: center;
