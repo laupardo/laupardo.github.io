@@ -22,9 +22,12 @@ h4 {
   padding: 0.5em 0.9em;
 }
 img#recImage{
-  width: 100%;
-  height: auto;
-
+  /*Mariana Rodriguez: It would be better for the image to fit the user's screen*/
+  max-height: 60vh;
+  max-width: 90vw;
+  /*Mariana Rodriguez: This helps centering the image*/
+  display: block;
+  margin: 0 auto
 }
 .btn#back {
   background-color: #f06075;
