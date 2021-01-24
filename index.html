@@ -1,191 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <script src="main.js"></script>
-    <link
-      href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <title>Foodie</title>
-    <link href="StyleSheet.css" rel="stylesheet" />
-  </head>
-  <body>
-    <!-- Jumbotron -->
-    <div class="jumbotron jumbotron-fluid">
-      <div class="container">
-        <h1 class="display-4">The Engineer Foodie</h1>
-        <p class="lead">
-          Stay hungry, stay curious.
-        </p>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lato|Slabo+13px" rel="stylesheet">
+
+  <!-- Social Media -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <title>Laura Pardo Borrero</title>
+  <link href="StyleSheet.css" rel="stylesheet" />
+</head>
+<body>
+  <!--Navigation-->
+  <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">
+      <img src="/images/l.png" width="30" height="30" alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ms-auto">
+        <a class="nav-item nav-link active" href="#">Home</a>
+        <a class="nav-item nav-link" href="Projects.html">Projects</a>
+        <a class="nav-item nav-link" href="Media.html">Media</a>
+        <a class="nav-item nav-link" href="Contact.html">Contact</a>
       </div>
     </div>
-    <div id="but" class="container-fluid">
-      <div class="row">
-        <div class="col-md-12 text-center">
-          <a
-            id="recipeButton"
-            href="./recipe.html"
-            class="btn btn-primary btn-lg active"
-            role="button"
-            >What should I cook today?</a
-          >
-        </div>
+  </nav>
+
+  <!--Jumbotron-->
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4 text-center">Laura Pardo Borrero</h1>
+      <p class="lead text-center">I'm a Computer Science and Engineering and Mechanical Engineering Student</p>
+      <p class="lead text-center">Expected graduation date</p>
+      <p id ="gradDate" class="lead text-center">April 2021</p>
+    </div>
+  </div>
+
+  <div class="container-fluid text-center">
+    <video autoplay loop>
+      <source src="/images/pepper.mp4" type="video/mp4">
+    </video>
+  </div>
+  <!--Footer-->
+  <div id= "footer" class="container-fluid ">
+    <div class="row">
+      <div class="col col-sm-4 text-center">
+        Laura Pardo Borrero
+      </div>
+      <div class="col col-sm-4 text-center">
+        Connect
+      </div>
+      <div class="col col-sm-4 text-center">
+        One of three columns
       </div>
     </div>
-    <!-- Carrousel -->
-    <div class="container-fluid">
-      <div id="r1" class="row">
-        <div
-          id="carouselExampleIndicators"
-          class="carousel slide"
-          data-ride="carousel"
-        >
-          <ol class="carousel-indicators">
-            <li
-              data-target="#carouselExampleIndicators"
-              data-slide-to="0"
-              class="active"
-            ></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-          </ol>
-          <div class="carousel-inner">
-            <!-- Image -->
-            <div class="carousel-item active">
-              <img
-                class="d-block w-100"
-                src="./images/salad2.jpg"
-                alt="First slide"
-              />
-              <!-- Caption -->
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Salmon salad</h5>
-                <p>Super easy and refreshing</p>
-              </div>
-            </div>
-            <!-- Image -->
-            <div class="carousel-item">
-              <img
-                class="d-block w-100"
-                src="./images/granola.JPG"
-                alt="Second slide"
-              />
-              <!-- Caption -->
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Granola</h5>
-                <p>An all time fave</p>
-              </div>
-            </div>
-            <!-- Image -->
-            <div class="carousel-item">
-              <img
-                class="d-block w-100"
-                src="./images/cv.JPG"
-                alt="Third slide"
-              />
-              <!-- Caption -->
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Curry 36</h5>
-                <p>The best Currywurst in Berlin.</p>
-              </div>
-            </div>
-          </div>
-          <a
-            class="carousel-control-prev"
-            href="#carouselExampleIndicators"
-            role="button"
-            data-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a
-            class="carousel-control-next"
-            href="#carouselExampleIndicators"
-            role="button"
-            data-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div>
+    <div class="row">
+      <div id = "bogtag" class="col col-sm-4 text-center">
+        Bogotá, Colombia. 2021
+      </div>
+      <div class="col col-sm-4 text-center">
+        <a href="https://www.linkedin.com/in/laura-pardo-borrero/" target="_blank" class="fa fa-linkedin"></a>
+        <a href="#" class="fa fa-google"></a>
+        <a href="https://github.com/laupardo"  target="_blank" class="fa fa-github"></a>
+      </div>
+      <div class="col col-sm-4 text-center">
+
       </div>
     </div>
-    <!-- About me section -->
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-8">
-          <h2>About me</h2>
-          <h4>
-            Ever since I was little I've had a thing for food. During the
-            weekends I would wake up and head straight to the kitchen to cook
-            eggs when I was barely tall enough to reach the stove on a stool. I
-            would watch the food network and cooking shows when others were busy
-            watching cartoons. Now that I've grown up, life has led me through
-            many paths yet my love of food seems to be a constant. I'm currently
-            a Mechanical Engineering and Computer Science and Engineering major
-            at University of the Andes who, when she isn't coding for Web
-            Development, (yeah, it sometimes exists) likes to go to restaurants
-            and develop recipes inspired by cultures, people and celebrations!
-            Outside of the realm of food I love sports. I used to be a roller
-            hockey player but now I like to stick to Tennis, the gym and
-            Swimming. I'm currently enrolled in 7 courses at my univeristy Web
-            Development, Robotics, Business analytics, Enterprise Systems,
-            Network Infrastructure, German and Afro-Colombian Music.
-          </h4>
-          <h2>Bon apetit!</h2>
-          <div class="wrapper">
-            <a target="_blank" href="https://instagram.com/laurispagd"
-              ><i class="fa fa-3x fa-instagram"></i
-            ></a>
-            <a target="_blank" href="https://twitter.com/laurispagd"
-              ><i class="fa fa-3x fa-twitter-square"></i
-            ></a>
-          </div>
-        </div>
-        <div id="abtMeIm" class="col-md-4">
-          <h2 id="name">Laura Pardo <br />@laurispagd</h2>
-          <img
-            src="./images/DSC_2947.JPG"
-            class="rounded-circle mx-auto d-block"
-            alt="Laura"
-          />
-        </div>
-      </div>
-    </div>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+  </div>
+
+
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</body>
 </html>

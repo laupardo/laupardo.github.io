@@ -1,7 +1,7 @@
 {
   "name": "WebDev",
   "version": "1.0.0",
-  "description": "",
+  "description": "https://laupardo.github.io/index.html ![screen shot of my webpage](https://github.com/laupardo/laupardo.github.io/blob/master/images/screenShot.jpg) # Objective  This project aims to showcase and practice what I've learned in my web development class by the developing my own personal web page.I decided to focus mainly on what I'm currently most passionate about and showcase it.",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,5 +17,13 @@
   "dependencies": {
     "g": "^2.0.1",
     "http-server": "^0.12.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laupardo/laupardo.github.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/laupardo/laupardo.github.io/issues"
+  },
+  "homepage": "https://github.com/laupardo/laupardo.github.io#readme"
 }
