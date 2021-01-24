@@ -33,6 +33,10 @@ a:hover{
   color:#de47a2;
 }
 
+.bg-dark{
+  background-color: #31313170!important;
+}
+
 
 /* Videos style*/
 #DEEPContainer,#NSLCContainer,#andresBelloContainer{
