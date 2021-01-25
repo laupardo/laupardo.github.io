@@ -15,6 +15,9 @@ p{
   Font-Size: 16px;
 }
 
+.navbar{
+  padding-right: 2vw;
+}
 /* Jumbotron style*/
 .jumbotron{
   background-color: transparent;

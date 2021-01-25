@@ -37,6 +37,10 @@ a:hover{
   background-color: #31313170!important;
 }
 
+.navbar{
+  padding-right: 2vw;
+}
+
 
 /* Videos style*/
 #DEEPContainer,#NSLCContainer,#andresBelloContainer{
